@@ -11,20 +11,36 @@
 
 /* UTILITIES */
     .border_container{
-        border: 2px solid black;
+        border: 3px solid black;
+    }
+
+    .border_col{
+        border: 4px dashed white;
     }
     
-    .border_col{
-        border: 1px dashed white;
+    .border_sub_col{
+        border: 2px solid black;
     }
 
     .h_100{
         height: 100px;
     }
-
+    
+    .h_500{
+        height: 500px;
+    }
+    
+    .h_start_bootstrap{
+        height: calc(400px / 3);
+    }
+    
     /* BG COLOR */
         .bgcolor_darkblue{
             background-color: #2C3E50;
+        }
+
+        .bgcolor_lightgreen{
+            background-color: #1ABC9C;
         }
     /* FINE BG COLOR */
 /* FINE UTILITIES */
