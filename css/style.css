@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* LAYOUT */
+    /* HEADER LAYOUT */
+    /* FINE HEADER LAYOUT */
+/* FINE LAYOUT */
+
+/* UTILITIES */
+    .border_container{
+        border: 2px solid black;
+    }
+    
+    .border_col{
+        border: 1px dashed white;
+    }
+
+    .h_100{
+        height: 100px;
+    }
+
+    /* BG COLOR */
+        .bgcolor_darkblue{
+            background-color: #2C3E50;
+        }
+    /* FINE BG COLOR */
+/* FINE UTILITIES */
