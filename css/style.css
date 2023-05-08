@@ -11,11 +11,15 @@
 
 /* UTILITIES */
     .border_container{
-        border: 3px solid black;
+        border: 4px solid black;
     }
 
     .border_col{
         border: 4px dashed white;
+    }
+
+    .border_col_2{
+        border: 4px dashed black;
     }
     
     .border_sub_col{
@@ -29,11 +33,15 @@
     .h_500{
         height: 500px;
     }
+
+    .h_800{
+        height: 800px;
+    }
     
     .h_start_bootstrap{
         height: calc(400px / 3);
     }
-    
+
     /* BG COLOR */
         .bgcolor_darkblue{
             background-color: #2C3E50;
