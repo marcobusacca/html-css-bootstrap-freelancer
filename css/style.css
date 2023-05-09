@@ -20,14 +20,15 @@
         vertical-align: middle;
     }
 
-    .start_bootstrap_content .start_bootstrap_line{
-        background-color: #fff;
-    }
-
     /* PORTFOLIO CONTENT */
-    .portfolio-content > img{
+    .portfolio_content > img{
         width: 100%;
         border-radius: 10px;
+    }
+
+    /* ABOUT CONTENT */
+    .about-content > button{
+        height: 10px;
     }
 
 /* FINE MAIN */
@@ -94,6 +95,10 @@
 
         .bgcolor_lightgreen{
             background-color: #1ABC9C;
+        }
+
+        .bgcolor_white{
+            background-color: #fff;
         }
     /* FINE BG COLOR */
 
