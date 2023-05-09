@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-/* LAYOUT */
-    /* HEADER LAYOUT */
-    /* FINE HEADER LAYOUT */
-/* FINE LAYOUT */
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+/* HEADER */
+    header button{
+        filter: invert(1);
+    }
+/* FINE HEADER */
 
 /* UTILITIES */
     .border_container{
@@ -50,6 +55,12 @@
         height: calc(400px / 3);
     }
 
+    /* TEXT COLOR */
+        .txt-white{
+            color: #fff;
+        }
+    /* FINE TEXT COLOR */
+
     /* BG COLOR */
         .bgcolor_darkblue{
             background-color: #2C3E50;
@@ -63,4 +74,10 @@
             background-color: #1ABC9C;
         }
     /* FINE BG COLOR */
+
+    /* FONT WEIGHT */
+        .bold{
+            font-weight: 700;
+        }
+    /* FINE FONT WEIGHT */
 /* FINE UTILITIES */
