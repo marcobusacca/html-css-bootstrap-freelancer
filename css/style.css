@@ -4,15 +4,29 @@
     box-sizing: border-box;
 }
 
-body{
-    /* font-family: 'Montserrat', sans-serif; */
-}
-
 /* HEADER */
     header button{
         filter: invert(1);
     }
 /* FINE HEADER */
+
+/* MAIN */
+    .start-bootstrap-content > img{
+        width: 60%;
+    }
+
+    .start-bootstrap-content .fa-star{
+        vertical-align: middle;
+    }
+
+    .start-bootstrap-content .start-bootstrap-line{
+        display: inline-block;
+        width: 70px;
+        height: 4px;
+        border-radius: 25px;
+        background-color: #fff;
+    }
+/* FINE MAIN */
 
 /* UTILITIES */
     .border_container{
