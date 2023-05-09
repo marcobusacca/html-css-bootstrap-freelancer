@@ -26,9 +26,18 @@
         border-radius: 10px;
     }
 
-    /* ABOUT CONTENT */
-    .about-content > button{
-        height: 10px;
+    /* CONTACT ME CONTENT */
+    .contact_me_content form input,
+    .contact_me_content form textarea{
+        display: block;
+        width: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .contact_me_content button{
+        border-color: #1ABC9C;
     }
 
 /* FINE MAIN */

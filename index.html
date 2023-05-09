@@ -211,20 +211,43 @@
             </section>
             <!-- FINE ABOUT SECTION -->
             <!-- CONTACT ME SECTION -->
-            <section class="container border_container h_800 my-5">
+            <section class="container my-4">
                 <!-- Contact Me Row -->
                 <div class="row justify-content-center">
                     <!-- Contact Me Col -->
-                    <div class="col-10 border_col_2 h_800">
+                    <div class="col-10">
                         <!-- Contact Me Sub Row -->
-                        <div class="row row-cols-1 align-items-center h_800">
+                        <div class="row row-cols-1">
                             <!-- Contact Me Sub Col -->
-                            <div class="col border_sub_col h_100"></div>
-                            <div class="col border_sub_col h_100"></div>
-                            <div class="col border_sub_col h_100"></div>
-                            <div class="col border_sub_col h_100"></div>
-                            <div class="col border_sub_col h_100"></div>
-                            <div class="col border_sub_col h_100"></div>
+                            <div class="col">
+                                <div class="contact_me_content txt_darkblue text-center">
+                                    <!-- Contact Me Title -->
+                                    <h2 class="bold pt-3 pb-2">CONTACT ME</h2>
+                                    <!-- Contact Me Initial Line -->
+                                    <div class="star_line bgcolor_darkblue"></div>
+                                    <!-- Contact Me Star Icon -->
+                                    <i class="fa-solid fa-star fa-2xl py-4 px-1"></i>
+                                    <!-- Contact Me Final Line -->
+                                    <div class="star_line bgcolor_darkblue"></div>
+                                </div>
+                            </div>
+                            <!-- Contact Me Sub Col Form -->
+                            <div class="col">
+                                <div class="contact_me_content">
+                                    <form action="#" method="POST">
+                                        <!-- Input Name -->
+                                        <input type="text" name="name" placeholder="Name" class="py-2" minlength="3" required>
+                                        <!-- Input Email -->
+                                        <input type="email" name="email" placeholder="Email Address" class="py-2" required>
+                                        <!-- Input Phone Number -->
+                                        <input type="tel" name="phone-number" placeholder="Phone Number" class="py-2" minlength="10" required>
+                                        <!-- Input TextArea -->
+                                        <textarea name="user-message" placeholder="Message" class="py-2" cols="30" rows="10" required></textarea>
+                                        <!-- Submit Button -->
+                                        <button type="submit" class="btn btn-success bgcolor_lightgreen mt-3">Send</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
