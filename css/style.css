@@ -11,21 +11,25 @@
 /* FINE HEADER */
 
 /* MAIN */
-    .start-bootstrap-content > img{
+    /* START BOOTSTRAP CONTENT */
+    .start_bootstrap_content > img{
         width: 60%;
     }
 
-    .start-bootstrap-content .fa-star{
+    .start_bootstrap_content .fa-star{
         vertical-align: middle;
     }
 
-    .start-bootstrap-content .start-bootstrap-line{
-        display: inline-block;
-        width: 70px;
-        height: 4px;
-        border-radius: 25px;
+    .start_bootstrap_content .start_bootstrap_line{
         background-color: #fff;
     }
+
+    /* PORTFOLIO CONTENT */
+    .portfolio-content > img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
 /* FINE MAIN */
 
 /* UTILITIES */
@@ -70,8 +74,12 @@
     }
 
     /* TEXT COLOR */
-        .txt-white{
+        .txt_white{
             color: #fff;
+        }
+
+        .txt_darkblue{
+            color: #2C3E50;
         }
     /* FINE TEXT COLOR */
 
@@ -94,4 +102,13 @@
             font-weight: 700;
         }
     /* FINE FONT WEIGHT */
+
+    /* STAR LINE */
+        .star_line{
+            display: inline-block;
+            width: 70px;
+            height: 4px;
+            border-radius: 25px;
+        }
+    /* FINE STAR LINE */
 /* FINE UTILITIES */
