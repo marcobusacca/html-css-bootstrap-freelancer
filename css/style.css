@@ -5,6 +5,10 @@
 }
 
 /* HEADER */
+    header{
+        width: 100%;
+    }
+
     header button{
         filter: invert(1);
     }
@@ -39,50 +43,37 @@
     .contact_me_content button{
         border-color: #1ABC9C;
     }
-
 /* FINE MAIN */
 
+/* FOOTER */
+    /* FOOTER FIRST SECTION */
+    .footer_content > p > a{
+        text-decoration: none;
+    }
+
+    .footer_content > .footer_icon{
+        display: inline-block;
+    }
+
+    .footer_icon > .footer_circle_icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* FOOTER SECOND SECTION */
+    .footer_content .fa-copyright{
+        font-size: 13px;
+    }
+/* FINE FOOTER */
+
 /* UTILITIES */
-    .border_container{
-        border: 4px solid black;
-    }
-
-    .border_col{
-        border: 4px dashed white;
-    }
-
-    .border_col_2{
-        border: 4px dashed black;
-    }
-    
-    .border_sub_col{
-        border: 2px solid black;
-    }
-
-    .h_80{
-        height: 80px;
-    }
-
-    .h_100{
-        height: 100px;
-    }
-    
-    .h_500{
-        height: 500px;
-    }
-
-    .h_600{
-        height: 600px;
-    }
-
-    .h_800{
-        height: 800px;
-    }
-    
-    .h_start_bootstrap{
-        height: calc(400px / 3);
-    }
-
     /* TEXT COLOR */
         .txt_white{
             color: #fff;
@@ -90,6 +81,10 @@
 
         .txt_darkblue{
             color: #2C3E50;
+        }
+
+        .txt_lightgreen{
+            color: #1ABC9C;
         }
     /* FINE TEXT COLOR */
 
@@ -126,3 +121,20 @@
         }
     /* FINE STAR LINE */
 /* FINE UTILITIES */
+
+/* LAYOUT RESPONSIVE */
+    /* TABLET */
+    @media screen and (min-width: 768px){
+        .start_bootstrap_content > img{
+            width: 40%;
+        }
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 992px){
+        .start_bootstrap_content > img{
+            width: 30%;
+        }
+    }
+/* FINE LAYOUT RESPONSIVE */
+
